@@ -16,3 +16,4 @@ lang: en-US
 
 # Build settings
 markdown: kramdown
+permalink: :title
