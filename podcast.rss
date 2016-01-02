@@ -45,7 +45,7 @@
 				<itunes:explicit>yes</itunes:explicit>
 				<description>
 				<![CDATA[
-				{{ content }}
+				{{ episode.content }}
 				]]>
 				</description>
 			</item>
