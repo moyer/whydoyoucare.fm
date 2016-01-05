@@ -36,8 +36,12 @@ h1 {
 }
 
 p {
-	margin-bottom: 30px;
 	line-height: 1.3;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
 }
 
 img {
@@ -49,6 +53,20 @@ img {
   display: block;
   margin-bottom: 25px;
   box-shadow: 5px 5px 0 rgba(0,0,0,.3);
+}
+
+.welcome {
+	margin-bottom: 15px;
+}
+
+.hosts {
+	font-size: 12px;
+	margin-bottom: 30px;
+	font-family: system, -apple-system, ".SFNSDisplay-Light", serif;
+}
+
+.hosts a {
+	border-bottom: 1px solid;
 }
 
 .buttons {
