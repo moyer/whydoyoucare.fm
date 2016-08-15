@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: bonus
 title: "BONUS: Four Minutes on The Revenant"
 date: 2016-03-26
 file: http://www.podtrac.com/pts/redirect.mp3/s3.amazonaws.com/whydoyoucare.fm/Why+Do+You+Care+-+BONUS+-+The+Revenant.mp3

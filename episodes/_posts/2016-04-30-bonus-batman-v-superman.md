@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: bonus
 title: "BONUS: Batman v Superman"
 date: 2016-04-30
 file: http://www.podtrac.com/pts/redirect.mp3/s3.amazonaws.com/whydoyoucare.fm/Why+Do+You+Care+-+BONUS+-+Superman+v+Batman.mp3
