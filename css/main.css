@@ -64,7 +64,6 @@ li {
   color: #fff;
   text-transform: uppercase;
   font-size: 16px;
-  margin-bottom: 20px;
   font-weight: 500; }
 
 .btn,
@@ -213,17 +212,22 @@ li {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.05);
-  padding: 40px;
-  margin-bottom: 60px; }
+  margin: 0;
+  padding: 60px 20px; }
+
+.listen-box .btn {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px; }
 
 .home {
   background-image: url("/assets/bg.jpg");

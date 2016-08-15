@@ -72,8 +72,7 @@ li {
 	user-select: none;
 	color: #fff;
 	text-transform: uppercase;
-	font-size: 16px;
-	margin-bottom: 20px;       
+	font-size: 16px;     
 	font-weight: 500;   
 }
 
@@ -231,14 +230,20 @@ li {
 
 .listen-box {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	flex-wrap: wrap;
 	
 	text-align: center; 
 	background-color: rgba(0,0,0,.05);
-	padding: 40px;
-	margin-bottom: 60px;
+	margin: 0;
+	padding: 60px 20px;
 }
+
+	.listen-box .btn {
+		margin-bottom: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
 
 
 
