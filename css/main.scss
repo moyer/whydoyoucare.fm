@@ -52,6 +52,25 @@ li {
 	margin-bottom: 20px;
 }
 
+/* Using i element for icons */
+i, .material-icons {
+	font-size: 30px;
+	font-weight: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    margin-right: 5px;
+}
+
 .btn {
 	display: inline-block;       
 	vertical-align: middle;      
@@ -61,10 +80,8 @@ li {
 	cursor: pointer;             
 	border: none;                
 	margin: 0;                   
-	padding-top:   0;           
-	padding-bottom: 0;           
-	line-height: 3;              
-	height:     3em;            
+	padding: 0;     
+	height: 3em;       
 	padding-right: 1em;          
 	padding-left: 1em;          
 	background-color: #2CB7FE;          
@@ -73,7 +90,10 @@ li {
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 16px;     
-	font-weight: 500;   
+	font-weight: 500; 
+
+	display: flex;
+	align-items: center;  
 }
 
 .btn,
