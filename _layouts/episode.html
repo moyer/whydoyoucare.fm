@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+
+<div class="episode">
+	<div class="episode__header" style="background-image: url('{{page.promo}}');">
+		<a href="/"><img class="episode__wdyc" src="/assets/itunes.png" alt="Why Do You Care?!"></a>
+		<h2 class="episode__number">{{page.title | slice: 0,6 }}</h2>
+		<h1 class="episode__title">{{page.title | slice: 8,1000 }}</h1>
+		<audio id="audio" src="{{page.file}}"></audio>	
+		<button class="episode__play" id="play">&nbsp;&#x25B6;&#xFE0E;</button>
+	</div>
+	<div class="episode__content">
+		<div class="listen-box">
+			<h2 style="width: 100%; margin-bottom: 40px; font-size: 30px;">How To Listen</h2>
+			<a class="btn" href="{{page.file}}">Download</a>
+			<a class="btn btn--rss" href="/podcast.rss">RSS</a>
+			<a class="btn btn--itunes" href="https://itunes.apple.com/us/podcast/why-do-you-care-!/id1071704530?mt=2"><span style="text-transform: lowercase;">i</span>Tunes</a>
+			<a class="btn btn--google" href="https://play.google.com/music/m/Iujmidz6xmr7avdr3rm35ophf2q?t=Why_Do_You_Care">Google Play</a>			
+			<p style="width: 100%; margin: 0; margin-top: 20px; font-size: 16px; text-align: center;">Or search for <strong>Why Do You Care?!</strong> in your favorite podcast app.</p>
+		</div>
+
+		<h2 style="text-align: center; margin-bottom: 20px; font-size: 30px;">Show Notes</h2>
+		{{page.content}}
+	</div>
+</div>
+
+
+

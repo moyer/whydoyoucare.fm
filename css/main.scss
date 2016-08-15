@@ -10,25 +10,14 @@ html, body {
 }
 
 body {
-	font-family: system, -apple-system, ".SFNSDisplay-UltraLight", serif;
-	background-image: url('/assets/bg.jpg');
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	font-family: 'Raleway', sans-serif;
 }
 
 
-.home {
-	color: #fff;
-	text-align: center;
+audio {
+	position: relative;
 	width: 500px;
-	font-size: 23px;
-	font-weight: 300;
-	letter-spacing: 1px;
+	height: 40px;
 }
 
 h1 {
@@ -37,15 +26,225 @@ h1 {
 
 p {
 	line-height: 1.3;
+	margin-bottom: 20px;
 }
 
 a {
 	text-decoration: none;
-	color: inherit;
+	color: #B22834;
+}
+
+a:hover {
+	color: #A42530;
 }
 
 img {
 	display: block;
+	max-width: 100%;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+li {
+	margin-bottom: 20px;
+}
+
+.btn {
+	display: inline-block;       
+	vertical-align: middle;      
+	white-space: nowrap;         
+	font-family: inherit;        
+	font-size: 100%;             
+	cursor: pointer;             
+	border: none;                
+	margin: 0;                   
+	padding-top:   0;           
+	padding-bottom: 0;           
+	line-height: 3;              
+	height:     3em;            
+	padding-right: 1em;          
+	padding-left: 1em;          
+	background-color: #2CB7FE;          
+	overflow: visible;
+	user-select: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-bottom: 20px;       
+	font-weight: 500;   
+}
+
+.btn,
+    .btn:hover,
+    .btn:active,
+    .btn:focus,
+    .btn:visited{
+        text-decoration: none; 
+        color: #fff;           
+    }
+
+	.btn--rss {
+		background-color: #10597F;
+	}
+
+	.btn--itunes {
+		background-color: #CC56E2;
+	}
+
+	.btn--google {
+		background-color: #ff5722;
+	}
+
+.footer {
+	text-align: center;
+	font-size: 12px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: rgba(0,0,0,.05);
+}
+
+// EPISODE PAGES
+
+.episode__header {
+	position: relative;
+	height: 80vh;
+	font-size: 12px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: no-wrap;
+
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	color: #fff;
+}
+
+	.episode__header:before {
+		content: '';
+		position: absolute;
+		background-color: rgba(0,0,0,.65);
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	}
+
+@media only screen and (min-width: 600px) {
+	.episode__header {
+		font-size: 16px;
+	}
+}
+
+.episode__wdyc {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 60px;
+}
+
+.episode__number {
+	position: relative;
+
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 1.25em;
+	color: rgba(255,255,255,1);
+	
+	padding-bottom: 10px;
+	border-bottom: 2px solid;
+	margin-bottom: 20px;
+}
+
+.episode__title {
+	position: relative;
+	text-align: center;
+	font-weight: 300;
+	font-size: 5em;
+	margin-bottom: 20px;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+}
+
+.episode__play {
+	position: relative;
+	border-radius: 50%;
+	height: 4.166666667em;
+	width: 4.166666667em;
+	border: 3px solid #fff;
+	background-color: transparent;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 1.5em;
+	outline: none;
+	cursor: pointer;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+	-moz-user-select: none;     /* Firefox all */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */      
+
+}
+
+.episode__content {
+	width: 100%;
+	max-width: 620px;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	font-size: 16px;
+}
+
+@media only screen and (min-width: 600px) {
+	.episode__content {
+		font-size: 20px;
+	}
+}
+
+.listen-box {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+	text-align: center; 
+	background-color: rgba(0,0,0,.05);
+	padding: 40px;
+	margin-bottom: 60px;
+}
+
+
+
+// HOME PAGE STUFF
+
+.home {
+	background-image: url('/assets/bg.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	height: 100%;
+	width: 100%;
+}
+
+.home__content {
+	color: #fff;
+	text-align: center;
+	width: 500px;
+	font-size: 23px;
+	font-weight: 300;
+	letter-spacing: 1px;
 }
 
 .album-cover {
@@ -67,6 +266,7 @@ img {
 
 .hosts a {
 	border-bottom: 1px solid;
+	color: #fff;
 }
 
 .buttons {
@@ -78,7 +278,7 @@ img {
 	display: block;
 }
 
-.btn {
+.home-btn {
 	background-color: #166292;
 	color: #fff;
 	font-size: 18px;
