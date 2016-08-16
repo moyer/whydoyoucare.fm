@@ -1,38 +1,18 @@
 ---
-layout: none
+layout: default
 ---
-<!DOCTYPE html>
-<html>
+<div class="welcome">
+	<img class="album-art" src="/assets/itunes.png" alt="Why Do You Care?!">
+	<h2 class="welcome__text">A podcast about the media we love, the media we hate, and why we care.</h2>
+	<p class="welcome__hosts">Hosted by <a href="https://twitter.com/willmoyer">Will Moyer</a> and <a href="https://twitter.com/kingdomhorse">Katie Allinson</a></p>
+</div>
+{% include listen-box.html %}
 
-	{% include head.html %}
-
-	<body>
-	<div class="home">
-		<div class="home__content">
-			<h1><img class="album-cover" src="/assets/itunes.png" alt="Why Do You Care?"></h1>
-			<p class="welcome">A podcast about the media we love, the media we hate, and why we care.</p>
-			<p class="hosts">Hosted by <a href="https://twitter.com/willmoyer">Will Moyer</a> and <a href="https://twitter.com/kingdomhorse">Katie Allinson</a>.</p>
-			<div class="buttons">
-			  <a class="itunes-link" href="https://geo.itunes.apple.com/us/podcast/why-do-you-care-!/id1071704530?mt=2"><img src="/assets/itunes-badge.svg" alt="Why Do You Care?! on iTunes"></a>
-			  <a class="home-btn" href="/podcast.rss">
-			    <img class="btn__icon" src="/assets/icon-rss.png" alt="">
-			    <div class="btn__text">Subscribe via <span>RSS</span></div></a>
-			  <a class="home-btn btn--overcast" href="https://overcast.fm/itunes1071704530/why-do-you-care">
-			    <img class="btn__icon" src="/assets/icon-overcast.png" alt="">
-			    <div class="btn__text">List of <span>Episodes</span></div>
-			  </a>
-			</div>
-		</div>
-	</div>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-6997846-12', 'auto');
-  ga('send', 'pageview');
-</script>
-
-</body>
-</html>
+<ul class="episode-list">
+<h2 style="width: 100%; text-align: center;">Episodes</h2>
+{% for episode in site.categories.episodes %}
+	{% if episode.layout == "episode" %}
+	<li class="episode-list__li" style="background-image: url('{{episode.promo}}');"><a class="episode-list__title" href="{{ site.url }}{{ episode.url }}">{{episode.title | slice: 7,1000}}</a></li>
+	{% endif %}
+{% endfor %}	
+</ul>
