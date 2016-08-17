@@ -61,7 +61,6 @@ li {
 
 /* Using i element for icons */
 i, .material-icons {
-	font-size: 26px;
 	font-weight: normal;
     font-style: normal;
     letter-spacing: normal;
@@ -74,8 +73,7 @@ i, .material-icons {
     -webkit-font-smoothing: antialiased;
     line-height: 1;
     margin: 0;
-    padding: 0;
-    margin-right: 5px;
+    padding: 0;  
 }
 
 .btn {
@@ -345,9 +343,19 @@ i, .material-icons {
 	-webkit-user-select: none;  /* Chrome all / Safari all */
 	-moz-user-select: none;     /* Firefox all */
 	-ms-user-select: none;      /* IE 10+ */
-	user-select: none;          /* Likely future */      
-
+	user-select: none;          /* Likely future */    
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
+
+	.episode__play i, .episode__play .material-icons {
+		font-size: 40px;
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
 
 .episode__content {
 	width: 100%;
@@ -384,3 +392,7 @@ i, .material-icons {
 		margin-right: 10px;
 	}
 
+	.listen-box i, .listen-box .material-icons {
+		font-size: 26px;
+		margin-right: 5px;
+	}

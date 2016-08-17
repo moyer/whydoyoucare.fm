@@ -9,7 +9,7 @@ layout: default
 		<h2 class="episode__number">Bonus</h2>
 		<h1 class="episode__title">{{page.title | slice: 7,1000 }}</h1>
 		<audio id="audio" src="{{page.file}}"></audio>	
-		<button class="episode__play" id="play">&nbsp;&#x25B6;&#xFE0E;</button>
+		<button class="episode__play" id="play"><i class="material-icons">play_arrow</i></button>
 	</div>
 	{% include listen-box.html %}
 	<div class="episode__content">

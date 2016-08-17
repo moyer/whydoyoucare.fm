@@ -6,10 +6,10 @@
 	$('#play').click(function(){ 
 		if (player.paused == false) {
 	      player.pause();
-	      $('#play').html('&nbsp;&#x25B6;&#xFE0E;')
+	      $('#play').html('<i class="material-icons">play_arrow</i>')
 	  	} else {
 	      player.play();
-	      $('#play').html('&#10073; &#10073;');
+	      $('#play').html('<i class="material-icons">pause</i>');
 	  	}
 	});
 </script>
