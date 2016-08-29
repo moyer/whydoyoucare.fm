@@ -159,6 +159,12 @@ i, .material-icons {
 	line-height: 1.2;
 }
 
+.welcome__hosts {
+	text-align: center;
+	margin: 0;
+	font-weight: 300;
+}
+
 @media only screen and (min-width: 600px) {
 	.welcome {
 		background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),url('/assets/bg2.jpg');
@@ -174,11 +180,6 @@ i, .material-icons {
 }
 
 
-.welcome__hosts {
-	text-align: center;
-	margin: 0;
-	font-weight: 300;
-}
 
 .episode-list {
 	display: flex;
@@ -186,7 +187,7 @@ i, .material-icons {
 	justify-content: center;
 	padding-top: 60px;
 	padding-bottom: 40px;
-	background-color: rgba(15,12,10,1);
+	background-color: rgba(20,17,15,1);
 	color: #fff;
 }
 
