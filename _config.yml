@@ -17,3 +17,7 @@ lang: en-US
 # Build settings
 markdown: kramdown
 permalink: :title
+
+# Global vars
+kt_url: https://twitter.com/kingdomhorse
+will_url: https://twitter.com/willmoyer
