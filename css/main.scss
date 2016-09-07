@@ -93,7 +93,8 @@ i, .material-icons {
 	font-weight: 500; 
 
 	display: flex;
-	align-items: center;  
+	align-items: center; 
+	transition: .3s all; 
 }
 
 .btn,
@@ -102,19 +103,35 @@ i, .material-icons {
     .btn:focus,
     .btn:visited{
         text-decoration: none; 
-        color: #fff;           
+        color: #fff; 
+    }
+
+    .btn--download {
+    	background-color: #2CB7FE;
+ 		&:hover {
+			background-color: darken(#2CB7FE, 10%);
+		}   	
     }
 
 	.btn--rss {
 		background-color: #10597F;
+		&:hover {
+			background-color: darken(#10597F, 10%);
+		}
 	}
 
 	.btn--itunes {
 		background-color: #CC56E2;
+		&:hover {
+			background-color: darken(#CC56E2, 10%);
+		}
 	}
 
 	.btn--google {
 		background-color: #ff5722;
+		&:hover {
+			background-color: darken(#ff5722, 8%);
+		}
 	}
 
 .footer {
