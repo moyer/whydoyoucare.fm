@@ -38,7 +38,7 @@ a {
 }
 
 a:hover {
-	color: #A42530;
+	color: lighten(#B22834, 10%);
 }
 
 img {
@@ -109,28 +109,29 @@ i, .material-icons {
     .btn--download {
     	background-color: #2CB7FE;
  		&:hover {
-			background-color: darken(#2CB7FE, 10%);
+			background-color: lighten(#2CB7FE, 8%);
 		}   	
     }
 
 	.btn--rss {
 		background-color: #10597F;
 		&:hover {
-			background-color: darken(#10597F, 10%);
+			background-color: lighten(#10597F, 8%);
+
 		}
 	}
 
 	.btn--itunes {
 		background-color: #CC56E2;
 		&:hover {
-			background-color: darken(#CC56E2, 10%);
+			background-color: lighten(#CC56E2, 8%);
 		}
 	}
 
 	.btn--google {
 		background-color: #ff5722;
 		&:hover {
-			background-color: darken(#ff5722, 8%);
+			background-color: lighten(#ff5722, 8%);
 		}
 	}
 
