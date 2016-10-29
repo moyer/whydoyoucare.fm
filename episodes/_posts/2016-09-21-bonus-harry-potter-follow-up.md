@@ -15,10 +15,6 @@ KT and Will respond to some special Harry Potter and the Cliched Title (S02E06) 
 <ul>
   <li><a href="http://whydoyoucare.fm/s02e06">S02E06: Harry Potter and the Cliched Title - Why Do You Care?!</a></li>
   <li><a href="http://hpmor.com/">Harry Potter and the Methods of Rationality</a></li>
-  <li><a href="http://archiveofourown.org/works/4989265/chapters/11461090">We Were Infinite - Archive of Our Own</a></li>
-  <li><a href="http://archiveofourown.org/works/1651109/chapters/3501239">Text Talk - Archive of Our Own</a></li>
-  <li><a href="http://archiveofourown.org/works/920957/chapters/1788530">A Cure For Nightmares - Archive of Our Own</a></li>
-  <li><a href="http://wolfstarwarehouse.tumblr.com/tags">Wolfstar Warehouse</a></li>
   <li><a href="http://archiveofourown.org/">Archive of Our Own</a></li>
   <li><a href="https://www.fanfiction.net/">FanFiction.net</a></li>
   <li><a href="http://fanlore.org/wiki/The_Shoebox_Project">The Shoebox Project - Fanlore</a></li>
