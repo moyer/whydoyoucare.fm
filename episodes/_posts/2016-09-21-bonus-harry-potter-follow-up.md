@@ -5,8 +5,8 @@ date: 2016-09-21
 file: http://www.podtrac.com/pts/redirect.mp3/s3.amazonaws.com/whydoyoucare.fm/Why+Do+You+Care+-+BONUS+-+Harry+Potter+Follow-up.mp3
 image: /assets/itunes.png
 summary: "KT and Will respond to some special Harry Potter and the Cliched Title follow-up."
-duration: "00:32:43" #audio length
-length: "31414984" #filesize in bytes
+duration: "00:31:35" #audio length
+length: "30321185" #filesize in bytes
 keywords: harry potter, harry, potter, hogwarts, jk rowling, rowling, cursed, child, dumbledore, snape, sirius
 ---
 
