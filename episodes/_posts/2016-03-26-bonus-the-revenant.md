@@ -16,6 +16,6 @@ KT thinks she can do anything that DiCapricot can do.
   <li><a href="https://en.wikipedia.org/wiki/The_Revenant_(2015_film)">The Revenant (2015 film) - Wikipedia, the free encyclopedia</a></li>
 </ul>
 
-Special thanks to [Joshua DuChene](http://joshuaduchene.audio) for the Why Do You Care?! theme song. Find more of his work at [joshuaduchene.audio](http://joshuaduchene.audio).
+Special thanks to [Joshua Du Chene](http://joshuaduchene.audio) for the Why Do You Care?! theme song. Find more of his work at [joshuaduchene.audio](http://joshuaduchene.audio).
 
 Follow Will and KT on Twitter: [@willmoyer](https://twitter.com/willmoyer) and [@kingdomhorse](https://twitter.com/kingdomhorse). 

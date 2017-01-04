@@ -16,6 +16,6 @@ Will is trying to be positive.
   <li><a href="https://en.wikipedia.org/wiki/Batman_v_Superman:_Dawn_of_Justice">Batman v Superman: Dawn of Justice - Wikipedia, the free encyclopedia</a></li>
 </ul>
 
-Special thanks to [Joshua DuChene](http://joshuaduchene.audio) for the Why Do You Care?! theme song. Find more of his work at [joshuaduchene.audio](http://joshuaduchene.audio).
+Special thanks to [Joshua Du Chene](http://joshuaduchene.audio) for the Why Do You Care?! theme song. Find more of his work at [joshuaduchene.audio](http://joshuaduchene.audio).
 
 Follow Will and KT on Twitter: [@willmoyer](https://twitter.com/willmoyer) and [@kingdomhorse](https://twitter.com/kingdomhorse). 

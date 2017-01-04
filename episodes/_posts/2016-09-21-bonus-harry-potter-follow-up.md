@@ -18,9 +18,8 @@ KT and Will respond to some special Harry Potter and the Cliched Title (S02E06) 
   <li><a href="http://archiveofourown.org/">Archive of Our Own</a></li>
   <li><a href="https://www.fanfiction.net/">FanFiction.net</a></li>
   <li><a href="http://fanlore.org/wiki/The_Shoebox_Project">The Shoebox Project - Fanlore</a></li>
- 
 </ul>
 
-Special thanks to [Joshua DuChene](http://joshuaduchene.audio) for the Why Do You Care?! theme song. Find more of his work at [joshuaduchene.audio](http://joshuaduchene.audio).
+Special thanks to [Joshua Du Chene](http://joshuaduchene.audio) for the Why Do You Care?! theme song. Find more of his work at [joshuaduchene.audio](http://joshuaduchene.audio).
 
 Follow Will and KT on Twitter: [@willmoyer](https://twitter.com/willmoyer) and [@kingdomhorse](https://twitter.com/kingdomhorse).
