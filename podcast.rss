@@ -19,8 +19,8 @@
 		</image>
 		<itunes:subtitle>A podcast about the media we love, the media we hate, and why we care.</itunes:subtitle>
 		<itunes:summary>A podcast about the media we love, the media we hate, and why we care.</itunes:summary>
-		<itunes:author>Will Moyer, Katie Allinson</itunes:author>
-		<itunes:keywords>media, movies, tv, shows, will, moyer, katie, allinson, kt, buffy, books, review, star, wars, game, thrones</itunes:keywords>
+		<itunes:author>Will Moyer, KT Allinson</itunes:author>
+		<itunes:keywords>media, movies, tv, shows, will, moyer, allinson, kt, buffy, books, review, star, wars, game, thrones</itunes:keywords>
 		<itunes:owner>
 			<itunes:name>Will Moyer</itunes:name>
 			<itunes:email>moyer.will@gmail.com</itunes:email>
@@ -36,7 +36,7 @@
 				<pubDate>{{ episode.date | date_to_rfc822 }}</pubDate>
 				<guid isPermaLink="true">{{ site.url }}{{ episode.url }}</guid>
 				<enclosure url="{{ episode.file }}" length="{{ episode.length }}" type="audio/mp3"/>
-				<itunes:author>Will Moyer, Katie Allinson</itunes:author>
+				<itunes:author>Will Moyer, KT Allinson</itunes:author>
 				<itunes:subtitle>{{ episode.summary | xml_escape }}</itunes:subtitle>
 				<itunes:summary>{{ episode.summary | xml_escape }}</itunes:summary>
 				<itunes:duration>{{ episode.duration }}</itunes:duration>
